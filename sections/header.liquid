@@ -123,7 +123,16 @@
   </symbol>
 </svg>
 <{% if section.settings.enable_sticky_header %}sticky-header{% else %}div{% endif %} class="header-wrapper color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator %} header-wrapper--border-bottom{% endif %}">
+  <div class="kaori-branded-bar">
+    <div class="kaori-branded-bar__individual" style="background-color: #FF9AA2;"></div>
+    <div class="kaori-branded-bar__individual" style="background-color: #FEB8B2;"></div>
+    <div class="kaori-branded-bar__individual" style="background-color: #FFDBC1;"></div>
+    <div class="kaori-branded-bar__individual" style="background-color: #E2F0CB;"></div>
+    <div class="kaori-branded-bar__individual" style="background-color: #D0E7DF;"></div>
+    <div class="kaori-branded-bar__individual" style="background-color: #D8DBE7;"></div>
+  </div>
   <header class="header header--{{ section.settings.logo_position }} header--mobile-{{ section.settings.mobile_logo_position }} page-width{% if section.settings.menu != blank %} header--has-menu{% endif %}">
+    
     {%- if section.settings.menu != blank -%}
       <header-drawer data-breakpoint="tablet">
         <details id="Details-menu-drawer-container" class="menu-drawer-container">

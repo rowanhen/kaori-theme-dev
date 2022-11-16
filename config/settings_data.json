@@ -1,27 +1,27 @@
 {
   "current": {
     "colors_solid_button_labels": "#fcfcfc",
-    "colors_accent_1": "#103948",
+    "colors_accent_1": "#ea8d94",
     "gradient_accent_1": "",
-    "colors_accent_2": "#103948",
+    "colors_accent_2": "#f6f0e4",
     "gradient_accent_2": "",
     "colors_text": "#103948",
     "colors_outline_button_labels": "#052c46",
-    "colors_background_1": "#fcfcfc",
+    "colors_background_1": "#f6f0e4",
     "gradient_background_1": "",
-    "colors_background_2": "#ebeced",
+    "colors_background_2": "#fcfcfc",
     "gradient_background_2": "",
-    "type_header_font": "electra_n4",
+    "type_header_font": "arimo_n4",
     "heading_scale": 105,
-    "type_body_font": "electra_n4",
+    "type_body_font": "arimo_n4",
     "body_scale": 105,
     "page_width": 1200,
     "spacing_sections": 0,
     "spacing_grid_horizontal": 40,
     "spacing_grid_vertical": 40,
-    "buttons_border_thickness": 1,
+    "buttons_border_thickness": 0,
     "buttons_border_opacity": 100,
-    "buttons_radius": 40,
+    "buttons_radius": 0,
     "buttons_shadow_opacity": 10,
     "buttons_shadow_horizontal_offset": 2,
     "buttons_shadow_vertical_offset": 2,
@@ -108,8 +108,8 @@
     "social_twitter_link": "",
     "social_facebook_link": "",
     "social_pinterest_link": "",
-    "social_instagram_link": "",
-    "social_tiktok_link": "",
+    "social_instagram_link": "https:\/\/tiktok.com\/@trykaori",
+    "social_tiktok_link": "https:\/\/tiktok.com\/@trykaori",
     "social_tumblr_link": "",
     "social_snapchat_link": "",
     "social_youtube_link": "",
@@ -125,89 +125,51 @@
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
-        "blocks": {
-          "announcement-bar-0": {
-            "type": "announcement",
-            "settings": {
-              "text": "Welcome to our store",
-              "text_alignment": "center",
-              "color_scheme": "background-2",
-              "link": ""
-            }
-          }
-        },
-        "block_order": [
-          "announcement-bar-0"
-        ],
         "settings": {
         }
       },
       "header": {
         "type": "header",
         "settings": {
-          "color_scheme": "background-1",
-          "logo": "{{ shop.brand.logo }}",
-          "logo_width": 120,
-          "logo_position": "top-center",
+          "color_scheme": "background-2",
+          "logo": "shopify:\/\/shop_images\/image_5.png",
+          "logo_width": 140,
+          "logo_position": "top-left",
           "menu": "main-menu",
           "menu_type_desktop": "dropdown",
           "show_line_separator": false,
           "enable_sticky_header": true,
-          "mobile_logo_position": "center",
-          "margin_bottom": 20,
-          "padding_top": 20,
-          "padding_bottom": 20
+          "mobile_logo_position": "left",
+          "margin_bottom": 0,
+          "padding_top": 12,
+          "padding_bottom": 12
         }
       },
       "footer": {
         "type": "footer",
         "blocks": {
-          "link-list": {
+          "57a70b3f-e023-49cb-ad36-29ae3afc6dd0": {
             "type": "link_list",
             "settings": {
-              "heading": "Shop",
-              "menu": "footer"
-            }
-          },
-          "link-list-1": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Info",
-              "menu": "footer"
-            }
-          },
-          "image": {
-            "type": "image",
-            "settings": {
-              "image_width": 100,
-              "alignment": "right"
-            }
-          },
-          "text": {
-            "type": "text",
-            "settings": {
-              "heading": "Our mission",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+              "heading": "KAORI",
+              "menu": "main-menu"
             }
           }
         },
         "block_order": [
-          "link-list",
-          "link-list-1",
-          "image",
-          "text"
+          "57a70b3f-e023-49cb-ad36-29ae3afc6dd0"
         ],
         "settings": {
-          "color_scheme": "background-2",
-          "newsletter_enable": true,
+          "color_scheme": "background-1",
+          "newsletter_enable": false,
           "newsletter_heading": "Subscribe to our emails",
           "show_social": true,
           "enable_country_selector": false,
           "enable_language_selector": false,
-          "payment_enable": true,
+          "payment_enable": false,
           "margin_top": 0,
-          "padding_top": 44,
-          "padding_bottom": 32
+          "padding_top": 0,
+          "padding_bottom": 20
         }
       },
       "main-password-header": {
@@ -224,7 +186,10 @@
           "color_scheme": "background-1"
         }
       }
-    }
+    },
+    "content_for_index": [
+
+    ]
   },
   "presets": {
     "Default": {
