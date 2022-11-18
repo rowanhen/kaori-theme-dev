@@ -1,0 +1,185 @@
+{%- style -%}
+  .review-wrapper {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+    gap: 1rem;
+    padding: 32px;
+    background: rgb(var(--color-background));
+  }
+
+  .review__content {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    min-width: 100%;
+    max-width: 200px;
+    max-height: 500px;
+    word-break: break-word;
+  }
+
+  .review-individual-wrapper {
+    padding: 32px;
+    -webkit-box-shadow: 0 0 22px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 22px 0 rgba(0, 0, 0, 0.1);
+    width: 100%;
+  }
+
+  .review-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+  }
+
+  @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(calc(-100% - 1rem));
+    }
+  }
+
+  /* Pause animation when reduced-motion is set */
+  @media(prefers-reduced-motion: reduce) {
+    .review__content {
+      animation-play-state: paused !important;
+    }
+  }
+
+  /* Enable animation */
+  .review__content {
+    animation: scroll 60s linear infinite;
+  }
+
+  /* Reverse animation */
+  .review-wrapper--reverse .review__content {
+    animation-direction: reverse;
+  }
+
+  /* Pause on hover */
+  .review-wrapper--hover-pause:hover .review__content {
+    animation-play-state: paused;
+  }
+
+  .section {}
+
+  @media screen and (min-width: 750px) {
+    .footer {}
+
+    .section {}
+  }
+{%- endstyle -%}
+
+<div class="review-wrapper color-{{ section.settings.color_scheme }}">
+  <div class="review__content">
+    {%- for block in section.blocks -%}
+      <div class="review-individual-wrapper">
+        <div class="quote-icon">
+          {% render 'icon-quotes' %}
+        </div>
+        <div class="stars-wrapper">
+          {%- for stars in section.blocks -%}
+            {% render 'icon-star' %}
+          {% endfor %}
+        </div>
+        <div class="review-text-wrapper">
+          <div>
+            {{ block.settings.content | truncate: 100 }}
+          </div>
+          <div>
+            {{ block.settings.location }}
+          </div>
+        </div>
+      </div>
+    {%- endfor -%}
+  </div>
+  <div aria-hidden="true" class="review__content">
+    {%- for block in section.blocks -%}
+      <div class="review-individual-wrapper">
+        <div class="quote-icon">
+          {% render 'icon-quotes' %}
+        </div>
+        <div class="stars-wrapper">
+          {%- for stars in section.blocks -%}
+            {% render 'icon-star' %}
+          {%- endfor -%}
+        </div>
+        <div class="review-text-wrapper">
+          <div>
+            {{ block.settings.content | truncate: 100 }}
+          </div>
+          <div>
+            {{ block.settings.location }}
+          </div>
+        </div>
+      </div>
+    {%- endfor -%}
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Reviews",
+    "limit": 1,
+    "max_blocks": 7,
+    "settings": [
+      {
+        "type": "select",
+        "id": "color_scheme",
+        "options": [
+          {
+            "value": "background-1",
+            "label": "t:sections.all.colors.background_1.label"
+          }, {
+            "value": "background-2",
+            "label": "t:sections.all.colors.background_2.label"
+          }
+        ],
+        "default": "background-2",
+        "label": "t:sections.all.colors.label"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "Review",
+        "name": "Review",
+        "settings": [
+          {
+            "type": "range",
+            "id": "stars",
+            "min": 0,
+            "max": 5,
+            "step": 1,
+            "default": 5,
+            "label": "Number of stars"
+          }, {
+            "type": "text",
+            "id": "content",
+            "default": "Some review content",
+            "label": "Review location"
+          }, {
+            "type": "text",
+            "id": "location",
+            "default": "London, UK",
+            "label": "Review location"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Review",
+        "blocks": [
+          {
+            "type": "Review"
+          }, {
+            "type": "Review"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}

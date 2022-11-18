@@ -6,7 +6,7 @@
         "template--16970304586008__191af26b-34f5-48fb-9bf2-fa6955815657-166861536572b231c4-0": {
           "type": "heading",
           "settings": {
-            "heading": "PERFORMANCE DRIVEN INCENSE",
+            "heading": "<p><strong>PERFORMANCE DRIVEN INCENSE<\/strong><\/p>",
             "heading_size": "h1"
           }
         },
@@ -40,8 +40,8 @@
         "content_layout": "overlap",
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "99b72263-b49c-4a92-8eeb-7fcd9c2180ad": {
@@ -51,7 +51,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/image_8.png",
-            "title": "Reduce Stress &  Axiety",
+            "title": "<p><strong>Reduce Stress &  Axiety<\/strong><\/p>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -61,7 +61,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/image_1.png",
-            "title": "Aid Sleep",
+            "title": "<p><strong>Aid Sleep<\/strong><\/p>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -71,7 +71,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/image_2.png",
-            "title": "Simulate Creativity",
+            "title": "<p><strong>Stimulate Creativity<\/strong><\/p>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -81,7 +81,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/image_3.png",
-            "title": "Increase Calm & Focus",
+            "title": "<p><strong>Increase Calm & Focus<\/strong><\/p>",
             "text": "",
             "link_label": "",
             "link": ""
@@ -244,7 +244,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "background-1",
+        "color_scheme": "background-2",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 0
@@ -258,7 +258,7 @@
           "settings": {
             "heading": "Enter Unmatched Flow State.",
             "icon": "bubble",
-            "row_content": "<p>Some description<\/p>",
+            "row_content": "<p><\/p><p>Some description<\/p>",
             "page": ""
           }
         },
@@ -425,8 +425,8 @@
         "template--16970304586008__c9ef7eb2-6197-4f9d-b28c-6a5a87dfd00d-166861536572b231c4-0": {
           "type": "heading",
           "settings": {
-            "heading": "Blended In Kiso",
-            "heading_size": "h1"
+            "heading": "<p><strong>Blended In Kiso<\/strong><\/p>",
+            "heading_size": "h0"
           }
         },
         "template--16970304586008__c9ef7eb2-6197-4f9d-b28c-6a5a87dfd00d-166861536572b231c4-1": {
@@ -453,6 +453,66 @@
         "mobile_content_alignment": "center",
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "69e9e338-0362-4a25-86a3-f5950746967e": {
+      "type": "reviews-carousel",
+      "blocks": {
+        "template--16970304586008__69e9e338-0362-4a25-86a3-f5950746967e-16688099219614b973-0": {
+          "type": "Review",
+          "settings": {
+            "stars": 5,
+            "content": "Some review content",
+            "location": "London, UK"
+          }
+        },
+        "template--16970304586008__69e9e338-0362-4a25-86a3-f5950746967e-16688099219614b973-1": {
+          "type": "Review",
+          "settings": {
+            "stars": 5,
+            "content": "Some review content",
+            "location": "London, UK"
+          }
+        },
+        "0f945a0e-3962-49bc-8902-46ad5311a591": {
+          "type": "Review",
+          "settings": {
+            "stars": 5,
+            "content": "Some review content",
+            "location": "London, UK"
+          }
+        },
+        "e77bfdeb-53a5-4306-b4a9-18add2abbb68": {
+          "type": "Review",
+          "settings": {
+            "stars": 5,
+            "content": "Some review content",
+            "location": "London, UK"
+          }
+        },
+        "83250034-952c-4c53-833a-4e842f574c51": {
+          "type": "Review",
+          "settings": {
+            "stars": 5,
+            "content": "Some review content",
+            "location": "London, UK"
+          }
+        }
+      },
+      "block_order": [
+        "template--16970304586008__69e9e338-0362-4a25-86a3-f5950746967e-16688099219614b973-0",
+        "template--16970304586008__69e9e338-0362-4a25-86a3-f5950746967e-16688099219614b973-1",
+        "0f945a0e-3962-49bc-8902-46ad5311a591",
+        "e77bfdeb-53a5-4306-b4a9-18add2abbb68",
+        "83250034-952c-4c53-833a-4e842f574c51"
+      ],
+      "settings": {
+        "color_scheme": "background-2"
+      }
+    },
+    "78190ce3-d7cd-45f6-a49f-5ac7d9c6deb3": {
+      "type": "marquee",
+      "settings": {
       }
     },
     "6ef49b60-9441-4534-a442-cf54767d6a80": {
@@ -543,6 +603,7 @@
       ],
       "settings": {
         "layout": "full_bleed",
+        "color_scheme": "background-2",
         "slide_height": "small",
         "slider_visual": "dots",
         "auto_rotate": false,
@@ -557,7 +618,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Join the KAORI team",
+            "heading": "<p><strong>Join the KAORI team<\/strong><\/p>",
             "heading_size": "h1"
           }
         },
@@ -581,7 +642,7 @@
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 12,
+        "padding_top": 60,
         "padding_bottom": 60
       }
     }
@@ -596,6 +657,8 @@
     "39e3b229-72a2-44d4-8e17-b33eea7ec946",
     "2b489207-42d0-482d-9075-0bfa2895bcfd",
     "c9ef7eb2-6197-4f9d-b28c-6a5a87dfd00d",
+    "69e9e338-0362-4a25-86a3-f5950746967e",
+    "78190ce3-d7cd-45f6-a49f-5ac7d9c6deb3",
     "6ef49b60-9441-4534-a442-cf54767d6a80",
     "4a93e726-2262-4c25-9827-ea9344d6495c",
     "newslettter"

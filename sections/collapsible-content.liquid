@@ -7,6 +7,30 @@
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
 
+  .summary_wrapper {
+    display: flex;
+    align-items: center;
+  }
+
+  .icon-wrapper {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-right: calc(var(--font-heading-scale) * 2rem);
+
+  }
+
+  .icon-background-circle {
+    display: flex !important;
+    align-self: center;
+    background-color: #F6F0E4;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    z-index: -5;
+    position: absolute;
+  }
+
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
@@ -46,12 +70,15 @@
             {%- for block in section.blocks -%}
               <div class="accordion{% if section.settings.layout == 'row' %} content-container color-{{ section.settings.container_color_scheme }} gradient{% endif %}" {{ block.shopify_attributes }}>
                 <details id="Details-{{ block.id }}-{{ section.id }}" {% if section.settings.open_first_collapsible_row and forloop.first %} open{% endif %}>
-                  <summary id="Summary-{{ block.id }}-{{ section.id }}">
-                    {% render 'icon-accordion', icon: block.settings.icon %}
+                  <summary class="summary_wrapper" id="Summary-{{ block.id }}-{{ section.id }}">
+                    <div class="icon-wrapper">
+                      <div class="icon-background-circle"></div>
+                      {% render 'icon-accordion', icon: block.settings.icon %}
+                    </div>
                     <h3 class="accordion__title h4">
                       {{ block.settings.heading | default: block.settings.page.title }}
                     </h3>
-                    {% render 'icon-caret' %}
+                    {% render 'icon-add-circle' %}
                   </summary>
                   <div class="accordion__content rte" id="CollapsibleAccordion-{{ block.id }}-{{ section.id }}" role="region" aria-labelledby="Summary-{{ block.id }}-{{ section.id }}">
                     {{ block.settings.row_content }}

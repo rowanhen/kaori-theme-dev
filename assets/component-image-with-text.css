@@ -78,6 +78,7 @@
   padding: 4rem calc(4rem / var(--font-body-scale)) 5rem;
   position: relative;
   z-index: 1;
+  background-color: none !important;
 }
 
 .image-with-text .grid__item::after {
@@ -359,7 +360,6 @@
 }
 
 .image-with-text__heading {
-  word-break: break-word;
   margin-bottom: 0;
 }
 

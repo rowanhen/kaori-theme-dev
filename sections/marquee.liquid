@@ -1,0 +1,132 @@
+{%- style -%}
+  .marquee {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    user-select: none;
+    gap: 1rem;
+    padding: 32px;
+    background: rgb(var(--color-background));
+  }
+
+  .marquee__content {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    min-width: 100%;
+  }
+
+  .tik-tok-icon-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icon-tiktok {
+    width: 5rem;
+    height: 5rem;
+  }
+
+  .tik-tok-text {
+    font-weight: bolder;
+    font-size: 3rem;
+    margin-left: 0.2rem;
+  }
+
+  @keyframes scroll {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(calc(-100% - 1rem));
+    }
+  }
+
+  /* Pause animation when reduced-motion is set */
+  @media(prefers-reduced-motion: reduce) {
+    .marquee__content {
+      animation-play-state: paused !important;
+    }
+  }
+
+  /* Enable animation */
+  .marquee__content {
+    animation: scroll 60s linear infinite;
+  }
+
+  /* Reverse animation */
+  .marquee--reverse .marquee__content {
+    animation-direction: reverse;
+  }
+
+  /* Pause on hover */
+  .marquee--hover-pause:hover .marquee__content {
+    animation-play-state: paused;
+  }
+
+  .section {}
+
+  @media screen and (min-width: 750px) {
+    .footer {}
+
+    .section {}
+  }
+{%- endstyle -%}
+
+<div class="marquee marquee--reverse color-{{ section.settings.color_scheme }}">
+  <div class="marquee__content">
+    {% for i in (1..5) %}
+      <div class="tik-tok-icon-wrapper">
+        {% render 'icon-tiktok' %}
+        <span class="tik-tok-text">
+          {{ section.settings.link }}
+        </span>
+      </div>
+    {%- endfor -%}
+  </div>
+  <div aria-hidden="true" class="marquee__content">
+    {% for i in (1..5) %}
+      <div class="tik-tok-icon-wrapper">
+        {% render 'icon-tiktok' %}
+        <span class="tik-tok-text">
+          {{ section.settings.link }}
+        </span>
+      </div>
+    {%- endfor -%}
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "TikTok Marquee",
+    "limit": 1,
+    "settings": [
+      {
+        "type": "select",
+        "id": "color_scheme",
+        "options": [
+          {
+            "value": "background-1",
+            "label": "t:sections.all.colors.background_1.label"
+          }, {
+            "value": "background-2",
+            "label": "t:sections.all.colors.background_2.label"
+          }
+        ],
+        "default": "background-2",
+        "label": "t:sections.all.colors.label"
+      }, {
+        "type": "text",
+        "id": "link",
+        "default": "@trykaori.com",
+        "label": "TikTok handle"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Marquee"
+      }
+    ]
+  }
+{% endschema %}
