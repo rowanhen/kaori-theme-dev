@@ -148,15 +148,24 @@
       "footer": {
         "type": "footer",
         "blocks": {
+          "4bfc50bc-08d1-4c5a-8904-5beaa7c61dfc": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/image_5.png",
+              "image_width": 200,
+              "alignment": "center"
+            }
+          },
           "57a70b3f-e023-49cb-ad36-29ae3afc6dd0": {
             "type": "link_list",
             "settings": {
-              "heading": "KAORI",
+              "heading": "",
               "menu": "main-menu"
             }
           }
         },
         "block_order": [
+          "4bfc50bc-08d1-4c5a-8904-5beaa7c61dfc",
           "57a70b3f-e023-49cb-ad36-29ae3afc6dd0"
         ],
         "settings": {

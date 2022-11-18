@@ -309,7 +309,7 @@
 
 .disclosure__button.localization-form__select {
   padding: calc(2rem + var(--inputs-border-width));
-  background: rgb(var(--color-background));
+  background-color: rgb(var(--color-background));
 }
 
 noscript .localization-form__select {
@@ -389,6 +389,9 @@ noscript .localization-selector.link {
 }
 
 .footer-block__details-content {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
   margin-bottom: 4rem;
 }
 
