@@ -504,6 +504,41 @@
         "padding_bottom": 0
       }
     },
+    "7473cca5-4535-4708-8c36-f2da183ec43f": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16970304586008__7473cca5-4535-4708-8c36-f2da183ec43f-16688242929b6d712e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>People say about us?<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--16970304586008__7473cca5-4535-4708-8c36-f2da183ec43f-16688242929b6d712e-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16970304586008__7473cca5-4535-4708-8c36-f2da183ec43f-16688242929b6d712e-0",
+        "template--16970304586008__7473cca5-4535-4708-8c36-f2da183ec43f-16688242929b6d712e-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
     "69e9e338-0362-4a25-86a3-f5950746967e": {
       "type": "reviews-carousel",
       "blocks": {
@@ -709,6 +744,7 @@
     "b950dcfa-1c08-408b-bb6a-072cb8de5c3b",
     "2b489207-42d0-482d-9075-0bfa2895bcfd",
     "c9ef7eb2-6197-4f9d-b28c-6a5a87dfd00d",
+    "7473cca5-4535-4708-8c36-f2da183ec43f",
     "69e9e338-0362-4a25-86a3-f5950746967e",
     "78190ce3-d7cd-45f6-a49f-5ac7d9c6deb3",
     "6ef49b60-9441-4534-a442-cf54767d6a80",
