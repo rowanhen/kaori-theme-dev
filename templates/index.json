@@ -143,72 +143,12 @@
         "padding_bottom": 0
       }
     },
-    "d3f7046f-8903-444d-b6b6-e0a8798d9941": {
-      "type": "featured-product",
-      "blocks": {
-        "template--16970304586008__d3f7046f-8903-444d-b6b6-e0a8798d9941-1668783276a22d4724-0": {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "template--16970304586008__d3f7046f-8903-444d-b6b6-e0a8798d9941-1668783276a22d4724-1": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "6bada446-c373-4df5-bf86-55c90f8fce42": {
-          "type": "text",
-          "settings": {
-            "text": "Text block",
-            "text_style": "uppercase"
-          }
-        },
-        "44a471ff-1cbe-44d7-a2ef-c3c361630132": {
-          "type": "text",
-          "settings": {
-            "text": "Our custom blended formulas have been crafted to aid the most essentials elements of a productive and healthy life. We've extracted key properties from natural ingredients which have been formulated to release upon an enkindled flame. Our formulas consist of Boost, Dream, Focus, Relax, Revive & Power.",
-            "text_style": "body"
-          }
-        },
-        "template--16970304586008__d3f7046f-8903-444d-b6b6-e0a8798d9941-1668783276a22d4724-2": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "template--16970304586008__d3f7046f-8903-444d-b6b6-e0a8798d9941-1668783276a22d4724-3": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        },
-        "template--16970304586008__d3f7046f-8903-444d-b6b6-e0a8798d9941-1668783276a22d4724-5": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true
-          }
-        }
-      },
-      "block_order": [
-        "template--16970304586008__d3f7046f-8903-444d-b6b6-e0a8798d9941-1668783276a22d4724-0",
-        "template--16970304586008__d3f7046f-8903-444d-b6b6-e0a8798d9941-1668783276a22d4724-1",
-        "6bada446-c373-4df5-bf86-55c90f8fce42",
-        "44a471ff-1cbe-44d7-a2ef-c3c361630132",
-        "template--16970304586008__d3f7046f-8903-444d-b6b6-e0a8798d9941-1668783276a22d4724-2",
-        "template--16970304586008__d3f7046f-8903-444d-b6b6-e0a8798d9941-1668783276a22d4724-3",
-        "template--16970304586008__d3f7046f-8903-444d-b6b6-e0a8798d9941-1668783276a22d4724-5"
-      ],
+    "9624a0f8-f3ef-4dc7-a28f-fb2b9af9083e": {
+      "type": "product-slider",
       "settings": {
-        "product": "1234",
-        "color_scheme": "background-1",
-        "secondary_background": false,
-        "media_position": "left",
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "title": "",
+        "collection": "frontpage",
+        "product_count": 6
       }
     },
     "e9536010-9284-4d95-8c0c-0d4ff9729f06": {
@@ -737,7 +677,7 @@
     "191af26b-34f5-48fb-9bf2-fa6955815657",
     "99b72263-b49c-4a92-8eeb-7fcd9c2180ad",
     "rich-text-3",
-    "d3f7046f-8903-444d-b6b6-e0a8798d9941",
+    "9624a0f8-f3ef-4dc7-a28f-fb2b9af9083e",
     "e9536010-9284-4d95-8c0c-0d4ff9729f06",
     "5d2d70ce-fc57-4414-a93c-1ea984b605f7",
     "39e3b229-72a2-44d4-8e17-b33eea7ec946",
