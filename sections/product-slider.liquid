@@ -4,12 +4,11 @@
 {%- capture flickity_options -%}
   {
   "prevNextButtons": true,
-                                                                                                                  "pageDots": true,
-                                                                                                                  "contain": true,
-                                                                                                                  "cellAlign": "center",
-                                                                                                                  "groupCells": true,
-                                                                                                                  "arrowShape": {"x0": 20, "x1": 60, "y1": 40, "x2": 60, "y2": 35, "x3": 25}
-                                                                                                                }{%- endcapture -%}
+              "pageDots": true,
+              "contain": true,
+              "cellAlign": "center",
+              "groupCells": true,
+              "arrowShape": {"x0": 20, "x1": 60, "y1": 40, "x2": 60, "y2": 35, "x3": 25}}{%- endcapture -%}
 
 <div class="featured-collection-slider page-width">
   {% if section.settings.title != blank %}
@@ -29,7 +28,7 @@
             <div class="product-image-bg">
               <img class="img-explore" src="{{ product.featured_image | img_url: 'master'}}">
               <div class="product-info">
-                <h4>
+                <h4 style="text-decoration: none;">
                   <strong>{{ product.title | upcase  }}</strong>
                 </h4>
                 <h5>
@@ -50,10 +49,14 @@
     border: none;
   }
   .featured-collection-slider {
-    padding-left: 55px;
-    padding-right: 55px;
-    max-width: 600px;
-    margin: 0 auto 20px;
+    padding: 40px 75px 80px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .products-carousel {
+    background: #EA8D94;
+    border-radius: 50%;
   }
 
   .carousel-cell {
@@ -88,9 +91,8 @@
   }
 
   .product-image-bg {
-    background: #EA8D94;
-    height: 300px;
-    width: 300px;
+    height: 350px;
+    width: 350px;
     border-radius: 50%;
     display: flex;
     flex-direction: column;
@@ -146,8 +148,8 @@
       }, {
         "type": "range",
         "id": "product_count",
-        "min": 4,
-        "max": 12,
+        "min": 3,
+        "max": 5,
         "label": "Number of products to display",
         "default": 4
       }
