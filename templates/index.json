@@ -159,6 +159,20 @@
             "heading_size": "h1"
           }
         },
+        "6bada446-c373-4df5-bf86-55c90f8fce42": {
+          "type": "text",
+          "settings": {
+            "text": "Text block",
+            "text_style": "uppercase"
+          }
+        },
+        "44a471ff-1cbe-44d7-a2ef-c3c361630132": {
+          "type": "text",
+          "settings": {
+            "text": "Our custom blended formulas have been crafted to aid the most essentials elements of a productive and healthy life. We've extracted key properties from natural ingredients which have been formulated to release upon an enkindled flame. Our formulas consist of Boost, Dream, Focus, Relax, Revive & Power.",
+            "text_style": "body"
+          }
+        },
         "template--16970304586008__d3f7046f-8903-444d-b6b6-e0a8798d9941-1668783276a22d4724-2": {
           "type": "price",
           "settings": {
@@ -170,32 +184,21 @@
             "picker_type": "button"
           }
         },
-        "template--16970304586008__d3f7046f-8903-444d-b6b6-e0a8798d9941-1668783276a22d4724-4": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
         "template--16970304586008__d3f7046f-8903-444d-b6b6-e0a8798d9941-1668783276a22d4724-5": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": true
-          }
-        },
-        "template--16970304586008__d3f7046f-8903-444d-b6b6-e0a8798d9941-1668783276a22d4724-6": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
           }
         }
       },
       "block_order": [
         "template--16970304586008__d3f7046f-8903-444d-b6b6-e0a8798d9941-1668783276a22d4724-0",
         "template--16970304586008__d3f7046f-8903-444d-b6b6-e0a8798d9941-1668783276a22d4724-1",
+        "6bada446-c373-4df5-bf86-55c90f8fce42",
+        "44a471ff-1cbe-44d7-a2ef-c3c361630132",
         "template--16970304586008__d3f7046f-8903-444d-b6b6-e0a8798d9941-1668783276a22d4724-2",
         "template--16970304586008__d3f7046f-8903-444d-b6b6-e0a8798d9941-1668783276a22d4724-3",
-        "template--16970304586008__d3f7046f-8903-444d-b6b6-e0a8798d9941-1668783276a22d4724-4",
-        "template--16970304586008__d3f7046f-8903-444d-b6b6-e0a8798d9941-1668783276a22d4724-5",
-        "template--16970304586008__d3f7046f-8903-444d-b6b6-e0a8798d9941-1668783276a22d4724-6"
+        "template--16970304586008__d3f7046f-8903-444d-b6b6-e0a8798d9941-1668783276a22d4724-5"
       ],
       "settings": {
         "product": "1234",
@@ -341,8 +344,54 @@
         "padding_bottom": 32
       }
     },
+    "b950dcfa-1c08-408b-bb6a-072cb8de5c3b": {
+      "type": "featured-marquee",
+      "blocks": {
+        "template--16970304586008__b950dcfa-1c08-408b-bb6a-072cb8de5c3b-16688237368d436cad-0": {
+          "type": "section",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/image_11_1.png"
+          }
+        },
+        "template--16970304586008__b950dcfa-1c08-408b-bb6a-072cb8de5c3b-16688237368d436cad-1": {
+          "type": "section",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group.png"
+          }
+        },
+        "35c2eaa1-7cce-4164-847f-70f61a728d6a": {
+          "type": "section",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/gq.png"
+          }
+        },
+        "adf61ba6-fee9-47a7-b12e-75f70543642d": {
+          "type": "section",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_1.png"
+          }
+        },
+        "eef435ac-04f7-419c-9ddd-78544f1e730c": {
+          "type": "section",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/elle-2.png"
+          }
+        }
+      },
+      "block_order": [
+        "template--16970304586008__b950dcfa-1c08-408b-bb6a-072cb8de5c3b-16688237368d436cad-0",
+        "template--16970304586008__b950dcfa-1c08-408b-bb6a-072cb8de5c3b-16688237368d436cad-1",
+        "35c2eaa1-7cce-4164-847f-70f61a728d6a",
+        "adf61ba6-fee9-47a7-b12e-75f70543642d",
+        "eef435ac-04f7-419c-9ddd-78544f1e730c"
+      ],
+      "settings": {
+        "color_scheme": "background-2"
+      }
+    },
     "2b489207-42d0-482d-9075-0bfa2895bcfd": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "template--16970304586008__2b489207-42d0-482d-9075-0bfa2895bcfd-166862303614ea3f5c-0": {
           "type": "column",
@@ -513,6 +562,8 @@
     "78190ce3-d7cd-45f6-a49f-5ac7d9c6deb3": {
       "type": "marquee",
       "settings": {
+        "color_scheme": "background-2",
+        "link": "@trykaori.com"
       }
     },
     "6ef49b60-9441-4534-a442-cf54767d6a80": {
@@ -655,6 +706,7 @@
     "e9536010-9284-4d95-8c0c-0d4ff9729f06",
     "5d2d70ce-fc57-4414-a93c-1ea984b605f7",
     "39e3b229-72a2-44d4-8e17-b33eea7ec946",
+    "b950dcfa-1c08-408b-bb6a-072cb8de5c3b",
     "2b489207-42d0-482d-9075-0bfa2895bcfd",
     "c9ef7eb2-6197-4f9d-b28c-6a5a87dfd00d",
     "69e9e338-0362-4a25-86a3-f5950746967e",
