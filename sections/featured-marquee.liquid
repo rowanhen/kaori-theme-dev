@@ -10,17 +10,16 @@
   }
 
   .marquee__content {
-    flex-shrink: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     gap: 2rem;
     min-width: 100%;
-    word-break: break-word;
   }
 
   .marquee-individual-wrapper {
     max-width: 250px;
+    margin-left: 24px;
   }
 
   .marquee-image {
@@ -73,13 +72,13 @@
   }
 {%- endstyle -%}
 
-<div class="marquee-wrapper marquee-wrapper--reverse color-{{ section.settings.color_scheme }}">
+<div class="marquee-wrapper color-{{ section.settings.color_scheme }}">
   <div class="marquee__content">
     {%- for block in section.blocks -%}
       <div class="marquee-individual-wrapper">
         {{ block.settings.image | image_url: width: 1500 | image_tag:
          loading: 'lazy'
-         , width: 100
+         , width: 150
          , class: 'marquee-image'
          , alt: section.settings.image.alt | escape
          }}
@@ -91,7 +90,7 @@
       <div class="marquee-individual-wrapper">
         {{ block.settings.image | image_url: width: 1500 | image_tag:
          loading: 'lazy'
-         , width: 100
+         , width: 150
          , class: 'marquee-image'
          , alt: section.settings.image.alt | escape
          }}
