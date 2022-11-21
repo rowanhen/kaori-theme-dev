@@ -143,12 +143,98 @@
         "padding_bottom": 0
       }
     },
-    "b7edde6a-3aa6-416c-8f05-1c771eb0e9d9": {
-      "type": "product-slider",
+    "f248e8ca-7d27-467b-8cf5-045aab556893": {
+      "type": "featured-product-with-slider",
+      "blocks": {
+        "template--16970304586008__f248e8ca-7d27-467b-8cf5-045aab556893-1668992357149953b1-0": {
+          "type": "text",
+          "settings": {
+            "text": "SLEEP • PRODUCTIVITY • MOOD",
+            "text_style": "uppercase"
+          }
+        },
+        "template--16970304586008__f248e8ca-7d27-467b-8cf5-045aab556893-1668992357149953b1-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "572585bd-8cf9-4f21-ac65-cdd1a1a59db6": {
+          "type": "text",
+          "settings": {
+            "text": "FREE DELIVERY • CANCEL ANYTIME",
+            "text_style": "uppercase"
+          }
+        },
+        "a2a0425d-e752-4b38-8ade-986bace8142c": {
+          "type": "richtext",
+          "settings": {
+            "richtext": "<p><strong>The KAORI complex blends are scientifically engineered to help you become a better you in 30 days.<\/strong><\/p>"
+          }
+        },
+        "abf1e984-417a-4d4d-b459-0e7e9352a89c": {
+          "type": "text",
+          "settings": {
+            "text": "Our custom blended formulas have been crafted to aid the most essentials elements of a productive and healthy life. We've extracted key properties from natural ingredients which have been formulated to release upon an enkindled flame. Our formulas consist of Boost, Dream, Focus, Relax, Revive & Power.",
+            "text_style": "body"
+          }
+        },
+        "70500dbd-f906-40d1-8d70-7a69ee54d85c": {
+          "type": "bullet",
+          "settings": {
+            "text": "30 day money-back guarantee. No questions asked.",
+            "icon": "3D-rotate"
+          }
+        },
+        "251a5b6e-471a-45ed-98bd-1082a01ae734": {
+          "type": "bullet",
+          "settings": {
+            "text": "60 cones. 2 per day.",
+            "icon": "custom-box-tick"
+          }
+        },
+        "77cfd4b0-433d-465a-b55d-09e0eefc8981": {
+          "type": "bullet",
+          "settings": {
+            "text": "No contract. Easy, free cancellation - anytime.",
+            "icon": "custom-coin"
+          }
+        },
+        "1b28fc31-6d87-47e0-a2d6-7af72a1834d9": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--16970304586008__f248e8ca-7d27-467b-8cf5-045aab556893-1668992357149953b1-5": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        }
+      },
+      "block_order": [
+        "template--16970304586008__f248e8ca-7d27-467b-8cf5-045aab556893-1668992357149953b1-0",
+        "template--16970304586008__f248e8ca-7d27-467b-8cf5-045aab556893-1668992357149953b1-1",
+        "572585bd-8cf9-4f21-ac65-cdd1a1a59db6",
+        "a2a0425d-e752-4b38-8ade-986bace8142c",
+        "abf1e984-417a-4d4d-b459-0e7e9352a89c",
+        "70500dbd-f906-40d1-8d70-7a69ee54d85c",
+        "251a5b6e-471a-45ed-98bd-1082a01ae734",
+        "77cfd4b0-433d-465a-b55d-09e0eefc8981",
+        "1b28fc31-6d87-47e0-a2d6-7af72a1834d9",
+        "template--16970304586008__f248e8ca-7d27-467b-8cf5-045aab556893-1668992357149953b1-5"
+      ],
       "settings": {
         "title": "",
         "collection": "frontpage",
-        "product_count": 5
+        "product_count": 4,
+        "product": "1234",
+        "color_scheme": "background-1",
+        "media_position": "left",
+        "hide_variants": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "e9536010-9284-4d95-8c0c-0d4ff9729f06": {
@@ -677,7 +763,7 @@
     "191af26b-34f5-48fb-9bf2-fa6955815657",
     "99b72263-b49c-4a92-8eeb-7fcd9c2180ad",
     "rich-text-3",
-    "b7edde6a-3aa6-416c-8f05-1c771eb0e9d9",
+    "f248e8ca-7d27-467b-8cf5-045aab556893",
     "e9536010-9284-4d95-8c0c-0d4ff9729f06",
     "5d2d70ce-fc57-4414-a93c-1ea984b605f7",
     "39e3b229-72a2-44d4-8e17-b33eea7ec946",
