@@ -96,12 +96,21 @@
     .section-header {
       margin-bottom: {{ section.settings.margin_bottom }}px;
     }
+    .mobile_header_icons  {
+      display: none !important;
+    }
   }
 
   @media screen and (min-width: 990px) {
     .header {
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+
+  @media screen and (max-width: 750px) {
+    .header__icon--cart  {
+      display: none !important;
     }
   }
 {%- endstyle -%}
@@ -613,6 +622,25 @@
           </span>
         </a>
       {%- endif -%}
+
+      <div class="mobile_header_icons footer__list-social list-unstyled list-social">
+        {%- if settings.social_tiktok_link != blank -%}
+          <li class="list-social__item">
+            <a href="{{ settings.social_tiktok_link }}" class="link list-social__link">
+              {%- render 'icon-tiktok' -%}
+              <span class="visually-hidden">{{ 'general.social.links.tiktok' | t }}</span>
+            </a>
+          </li>
+        {%- endif -%}
+        {%- if settings.social_instagram_link != blank -%}
+          <li class="list-social__item">
+            <a href="{{ settings.social_instagram_link }}" class="link list-social__link">
+              {%- render 'icon-instagram' -%}
+              <span class="visually-hidden">{{ 'general.social.links.instagram' | t }}</span>
+            </a>
+          </li>
+        {%- endif -%}
+      </div>
 
       <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
         {%- liquid
