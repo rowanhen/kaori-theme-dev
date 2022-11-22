@@ -227,9 +227,6 @@
         "template--16970304586008__f248e8ca-7d27-467b-8cf5-045aab556893-1668992357149953b1-5"
       ],
       "settings": {
-        "title": "",
-        "collection": "frontpage",
-        "product_count": 4,
         "product": "1234",
         "color_scheme": "background-1",
         "media_position": "left",
@@ -576,8 +573,8 @@
           "type": "Review",
           "settings": {
             "stars": 5,
-            "content": "Some review content",
-            "location": "London, UK"
+            "content": "This is an example review - I love kaori",
+            "location": "Manchester, UK"
           }
         },
         "template--16970304586008__69e9e338-0362-4a25-86a3-f5950746967e-16688099219614b973-1": {
