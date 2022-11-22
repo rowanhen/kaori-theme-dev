@@ -177,20 +177,35 @@
               <h2>{{ section.settings.title | escape }}</h2>
             </div>
           {% endif %}
-
-          {%- assign collection = collections[section.settings.collection] -%}
-          {%- assign product_limit = section.settings.product_count -%}
-
           <div class="products-carousel js-flickity" data-flickity='{{ flickity_options }}'>
             {% for media in product.media %}
               <div class="carousel-cell">
-                <a href="{{ product.url | within: collection }}">
+                <a href="{{ product.url }}">
                   <div class="product-image-wrapper">
                     <div class="product-image-bg">
                       <img class="img-explore" src="{{ media | img_url: 'master'}}">
                       <div class="product-info">
                         <h4>
-                          <strong>{{ product.title | upcase  }}</strong>
+                          <strong>
+                            {% if media contains "Boost"  %}
+                              BOOST X FLAVOUR
+                            {% endif %}
+                            {% if media contains "Dream"  %}
+                              DREAM X FLAVOUR
+                            {% endif %}
+                            {% if media contains "Revive"  %}
+                              REVIVE X FLAVOUR
+                            {% endif %}
+                            {% if media contains "Power"  %}
+                              POWER X FLAVOUR
+                            {% endif %}
+                            {% if media contains "Relax"  %}
+                              RELAX X FLAVOUR
+                            {% endif %}
+                            {% if media contains "Focus"  %}
+                              FOCUS X FLAVOUR
+                            {% endif %}
+                          </strong>
                         </h4>
                         <h5>
                           <u>
@@ -200,7 +215,7 @@
                       </div>
                     </div>
                   </div>
-                </a>
+                  </a>
               </div>
             {% endfor %}
           </div>
@@ -781,25 +796,6 @@
       }
     ],
     "settings": [
-      {
-        "type": "text",
-        "id": "title",
-        "label": "Heading",
-        "default": "Featured Collection"
-      },
-      {
-        "type": "collection",
-        "id": "collection",
-        "label": "Collection"
-      },
-      {
-        "type": "range",
-        "id": "product_count",
-        "min": 3,
-        "max": 5,
-        "label": "Number of products to display",
-        "default": 4
-      },
       {
         "type": "product",
         "id": "product",
