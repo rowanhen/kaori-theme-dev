@@ -28,8 +28,10 @@
 
   .review-text-wrapper {
     max-width: 300px;
+    height: calc(100% - 64px);
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: space-between;
   }
 
@@ -81,13 +83,13 @@
           {% render 'icon-quotes' %}
         </div>
         <div class="stars-wrapper">
-          {%- for stars in section.blocks -%}
+          {%- for i in (1..block.settings.stars) -%}
             {% render 'icon-star' %}
-          {% endfor %}
+          {%- endfor -%}
         </div>
         <div class="review-text-wrapper">
           <div>
-            {{ block.settings.content | truncate: 140 }}
+            {{ block.settings.content | truncate: 100 | replace: 'p>', 'span>' }}
           </div>
           <div>
             {{ block.settings.location }}
@@ -103,13 +105,13 @@
           {% render 'icon-quotes' %}
         </div>
         <div class="stars-wrapper">
-          {%- for stars in section.blocks -%}
+          {%- for i in (1..block.settings.stars) -%}
             {% render 'icon-star' %}
           {%- endfor -%}
         </div>
         <div class="review-text-wrapper">
           <div>
-            {{ block.settings.content | truncate: 100 }}
+            {{ block.settings.content | truncate: 100 | replace: 'p>', 'span>' }}
           </div>
           <div>
             {{ block.settings.location }}
@@ -158,7 +160,7 @@
           }, {
             "type": "richtext",
             "id": "content",
-            "default": "Some review content",
+            "default": "<p>Some review content</p>",
             "label": "Review location"
           }, {
             "type": "text",
