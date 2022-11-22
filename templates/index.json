@@ -597,7 +597,7 @@
           "type": "Review",
           "settings": {
             "stars": 5,
-            "content": "Some review content",
+            "content": "Another random review - just testing how this works & looks - if the review gets too long then it should truncate",
             "location": "London, UK"
           }
         },
