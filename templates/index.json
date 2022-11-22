@@ -363,7 +363,7 @@
       ],
       "settings": {
         "desktop_content_position": "center",
-        "content_alignment": "center",
+        "content_alignment": "left",
         "color_scheme": "background-2",
         "full_width": true,
         "padding_top": 32,
@@ -624,7 +624,7 @@
       "type": "marquee",
       "settings": {
         "color_scheme": "background-2",
-        "link": "@trykaori.com"
+        "link": "@trykaori"
       }
     },
     "6ef49b60-9441-4534-a442-cf54767d6a80": {
