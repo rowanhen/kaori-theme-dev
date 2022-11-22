@@ -27,6 +27,7 @@
   }
 
   .review-text-wrapper {
+    max-width: 300px;
     display: flex;
     flex-direction: column;
     align-items: space-between;
@@ -86,7 +87,7 @@
         </div>
         <div class="review-text-wrapper">
           <div>
-            {{ block.settings.content | truncate: 100 }}
+            {{ block.settings.content | truncate: 140 }}
           </div>
           <div>
             {{ block.settings.location }}
@@ -155,7 +156,7 @@
             "default": 5,
             "label": "Number of stars"
           }, {
-            "type": "text",
+            "type": "richtext",
             "id": "content",
             "default": "Some review content",
             "label": "Review location"
