@@ -6,13 +6,20 @@
         "vendor": {
           "type": "text",
           "settings": {
-            "text": "{{ product.vendor }}",
+            "text": "SLEEP • PRODUCTIVITY • MOOD",
             "text_style": "uppercase"
           }
         },
         "title": {
           "type": "title",
           "settings": {
+          }
+        },
+        "63a75692-d88c-456f-93fd-f356ebfdf135": {
+          "type": "text",
+          "settings": {
+            "text": "FREE DELIVERY • CANCEL ANYTIME",
+            "text_style": "uppercase"
           }
         },
         "description": {
@@ -35,6 +42,7 @@
       "block_order": [
         "vendor",
         "title",
+        "63a75692-d88c-456f-93fd-f356ebfdf135",
         "description",
         "price",
         "buy_buttons"
