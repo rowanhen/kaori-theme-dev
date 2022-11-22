@@ -18,6 +18,7 @@
   }
 {%- endstyle -%}
 
+<div class="{{ section.smooth_scroll_link }}">
 <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
   <div class="rich-text content-container color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} rich-text--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding">
     <div class="rich-text__wrapper rich-text__wrapper--{{ section.settings.desktop_content_position }}{% if section.settings.full_width %} page-width{% endif %}">
@@ -51,6 +52,7 @@
     </div>
   </div>
 </div>
+</div>
 
 {% schema %}
 {
@@ -58,6 +60,12 @@
   "tag": "section",
   "class": "section",
   "settings": [
+    {
+          "type": "text",
+          "id": "smooth_scroll_link",
+          "default": "this_has_to_one_word",
+          "label": "Smooth scroll link"
+        },
     {
       "type": "select",
       "id": "desktop_content_position",
@@ -164,6 +172,7 @@
       "name": "t:sections.rich-text.blocks.heading.name",
       "limit": 3,
       "settings": [
+        
         {
           "type": "richtext",
           "id": "heading",
