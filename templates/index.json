@@ -135,6 +135,7 @@
         "0e3a0690-8151-468b-828c-ed259bc53edf"
       ],
       "settings": {
+        "smooth_scroll_link": "Featured_product",
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "background-1",
@@ -271,6 +272,7 @@
         "template--16970304586008__e9536010-9284-4d95-8c0c-0d4ff9729f06-1668783323ec329591-2"
       ],
       "settings": {
+        "smooth_scroll_link": "About",
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "background-2",
@@ -362,8 +364,9 @@
         "template--16970304586008__39e3b229-72a2-44d4-8e17-b33eea7ec946-16686153654fde8ffb-1"
       ],
       "settings": {
+        "smooth_scroll_link": "this_has_to_one_word",
         "desktop_content_position": "center",
-        "content_alignment": "left",
+        "content_alignment": "center",
         "color_scheme": "background-2",
         "full_width": true,
         "padding_top": 32,
@@ -557,6 +560,7 @@
         "template--16970304586008__7473cca5-4535-4708-8c36-f2da183ec43f-16688242929b6d712e-2"
       ],
       "settings": {
+        "smooth_scroll_link": "Reviews",
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "background-2",
@@ -661,6 +665,7 @@
         "template--16970304586008__6ef49b60-9441-4534-a442-cf54767d6a80-1668783323ec329591-2"
       ],
       "settings": {
+        "smooth_scroll_link": "this_has_to_one_word",
         "desktop_content_position": "center",
         "content_alignment": "center",
         "color_scheme": "background-2",
