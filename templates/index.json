@@ -311,7 +311,7 @@
         "template--16970304586008__5d2d70ce-fc57-4414-a93c-1ea984b605f7-16687832769d515788-3": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Enter Unmatched Flow State.",
+            "heading": "Say goodbye to procrastination.",
             "icon": "truck_custom",
             "row_content": "<p>Some description<\/p>",
             "page": ""
@@ -494,42 +494,6 @@
         "padding_bottom": 28
       }
     },
-    "c9ef7eb2-6197-4f9d-b28c-6a5a87dfd00d": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--16970304586008__c9ef7eb2-6197-4f9d-b28c-6a5a87dfd00d-166861536572b231c4-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p><strong>Blended In Kiso<\/strong><\/p>",
-            "heading_size": "h0"
-          }
-        },
-        "template--16970304586008__c9ef7eb2-6197-4f9d-b28c-6a5a87dfd00d-166861536572b231c4-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Originally used by the Sōhei Buddhist warrior monks. <\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "template--16970304586008__c9ef7eb2-6197-4f9d-b28c-6a5a87dfd00d-166861536572b231c4-0",
-        "template--16970304586008__c9ef7eb2-6197-4f9d-b28c-6a5a87dfd00d-166861536572b231c4-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Untitled_design_-_2022-07-14T145814_1.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-2",
-        "mobile_content_alignment": "center",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "7473cca5-4535-4708-8c36-f2da183ec43f": {
       "type": "rich-text",
       "blocks": {
@@ -572,7 +536,7 @@
         "template--16970304586008__69e9e338-0362-4a25-86a3-f5950746967e-16688099219614b973-0": {
           "type": "Review",
           "settings": {
-            "stars": 3,
+            "stars": 5,
             "content": "<p>This is an example review - I love kaori<\/p>",
             "location": "Manchester, UK"
           }
@@ -580,15 +544,15 @@
         "template--16970304586008__69e9e338-0362-4a25-86a3-f5950746967e-16688099219614b973-1": {
           "type": "Review",
           "settings": {
-            "stars": 1,
-            "content": "<p>Some review<\/p>",
+            "stars": 5,
+            "content": "<p>Some review content<\/p>",
             "location": "London, UK"
           }
         },
         "0f945a0e-3962-49bc-8902-46ad5311a591": {
           "type": "Review",
           "settings": {
-            "stars": 2,
+            "stars": 5,
             "content": "<p>Some review content<\/p>",
             "location": "London, UK"
           }
@@ -752,7 +716,6 @@
     "39e3b229-72a2-44d4-8e17-b33eea7ec946",
     "b950dcfa-1c08-408b-bb6a-072cb8de5c3b",
     "2b489207-42d0-482d-9075-0bfa2895bcfd",
-    "c9ef7eb2-6197-4f9d-b28c-6a5a87dfd00d",
     "7473cca5-4535-4708-8c36-f2da183ec43f",
     "69e9e338-0362-4a25-86a3-f5950746967e",
     "78190ce3-d7cd-45f6-a49f-5ac7d9c6deb3",
