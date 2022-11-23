@@ -494,6 +494,33 @@
         "padding_bottom": 28
       }
     },
+    "f2e2688c-4294-4438-8634-90a6861aac15": {
+      "type": "image-with-text-custom",
+      "blocks": {
+        "template--16970304586008__f2e2688c-4294-4438-8634-90a6861aac15-1669195695667cff4a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Blended In Kiso<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--16970304586008__f2e2688c-4294-4438-8634-90a6861aac15-1669195695667cff4a-1": {
+          "type": "caption",
+          "settings": {
+            "caption": "Originally used by the Sōhei Buddhist warrior monks.",
+            "text_style": "subtitle"
+          }
+        }
+      },
+      "block_order": [
+        "template--16970304586008__f2e2688c-4294-4438-8634-90a6861aac15-1669195695667cff4a-0",
+        "template--16970304586008__f2e2688c-4294-4438-8634-90a6861aac15-1669195695667cff4a-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled_design_-_2022-07-14T145814_1.png",
+        "color_scheme": "background-2"
+      }
+    },
     "7473cca5-4535-4708-8c36-f2da183ec43f": {
       "type": "rich-text",
       "blocks": {
@@ -716,6 +743,7 @@
     "39e3b229-72a2-44d4-8e17-b33eea7ec946",
     "b950dcfa-1c08-408b-bb6a-072cb8de5c3b",
     "2b489207-42d0-482d-9075-0bfa2895bcfd",
+    "f2e2688c-4294-4438-8634-90a6861aac15",
     "7473cca5-4535-4708-8c36-f2da183ec43f",
     "69e9e338-0362-4a25-86a3-f5950746967e",
     "78190ce3-d7cd-45f6-a49f-5ac7d9c6deb3",
