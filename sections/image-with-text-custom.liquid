@@ -1,0 +1,215 @@
+{{ 'component-image-with-text.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  .custom-image-with-text-wrapper {
+    background-color: rgb(var(--color-background));
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 80px 80px 60px;
+  }
+
+  .custom-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .custom-text-wrapper {
+    top: 0px;
+    left: 0px;
+    position: absolute;
+  }
+
+  .custom-image {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+  }
+
+   @media screen and (min-width: 801px) and (max-width: 1100px) {
+    .custom-text-wrapper {
+        max-width: 350px;
+        position: absolute;
+    }
+   }
+
+  @media screen and (max-width: 800px) {
+    .custom-image-with-text-wrapper {
+        background-color: rgb(var(--color-background));
+        width: 100%;
+        padding: 0px;
+    }
+    .custom-wrapper {
+        position: relative;
+        width: 100%;
+        height: auto;
+        display: block;
+        min-height: 400px;
+    }
+
+    .custom-text-wrapper {
+        top: 0px;
+        left: 48px;
+        max-width: 350px;
+        position: absolute;
+    }
+
+    .custom-image {
+        bottom: 0px;
+        width: 100%;
+        min-width: auto;
+        max-width: 800px;
+        position: absolute;
+    }
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="custom-image-with-text-wrapper color-{{ section.settings.color_scheme }}">
+    <div class="custom-wrapper">
+      <div class="custom-text-wrapper">
+        {%- for block in section.blocks -%}
+          {% case block.type %}
+            {%- when 'heading' -%}
+              <h2 class="image-with-text__heading {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+                {{ block.settings.heading | replace: 'p>', 'span>' }}
+              </h2>
+            {%- when 'caption' -%}
+              <p class="image-with-text__text image-with-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}" {{ block.shopify_attributes }}>{{ block.settings.caption | escape }}</p>
+            {%- when 'text' -%}
+              <div class="" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
+          {%- endcase -%}
+        {%- endfor -%}
+      </div>
+    <div class="custom-image-wrapper">
+      <div class="color-{{ section.settings.color_scheme }}">
+        {%- if section.settings.image != blank -%}
+          {{ section.settings.image | image_url: width: 1500 | image_tag:
+           loading: 'lazy',
+           class: 'custom-image'
+           }}
+        {%- else -%}
+          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+        {%- endif -%}
+      </div>
+    </div>
+    </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Custom image with text",
+    "class": "section",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "t:sections.image-with-text.settings.image.label"
+      },
+       {
+        "type": "select",
+        "id": "color_scheme",
+        "options": [
+          {
+            "value": "background-1",
+            "label": "t:sections.all.colors.background_1.label"
+          },
+          {
+            "value": "background-2",
+            "label": "t:sections.all.colors.background_2.label"
+          }
+        ],
+        "default": "background-1",
+        "label": "t:sections.all.colors.label"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "heading",
+        "name": "t:sections.image-with-text.blocks.heading.name",
+        "limit": 1,
+        "settings": [
+          {
+            "type": "richtext",
+            "id": "heading",
+            "default": "<p>Image with text</p>",
+            "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+          }, {
+            "type": "select",
+            "id": "heading_size",
+            "options": [
+              {
+                "value": "h2",
+                "label": "t:sections.all.heading_size.options__1.label"
+              }, {
+                "value": "h1",
+                "label": "t:sections.all.heading_size.options__2.label"
+              }, {
+                "value": "h0",
+                "label": "t:sections.all.heading_size.options__3.label"
+              }
+            ],
+            "default": "h1",
+            "label": "t:sections.all.heading_size.label"
+          }
+        ]
+      }, {
+        "type": "caption",
+        "name": "t:sections.image-with-text.blocks.caption.name",
+        "limit": 1,
+        "settings": [
+          {
+            "type": "text",
+            "id": "caption",
+            "default": "Add a tagline",
+            "label": "t:sections.image-with-text.blocks.caption.settings.text.label"
+          }, {
+            "type": "select",
+            "id": "text_style",
+            "options": [
+              {
+                "value": "subtitle",
+                "label": "t:sections.image-with-text.blocks.caption.settings.text_style.options__1.label"
+              }, {
+                "value": "caption-with-letter-spacing",
+                "label": "t:sections.image-with-text.blocks.caption.settings.text_style.options__2.label"
+              }
+            ],
+            "default": "caption-with-letter-spacing",
+            "label": "t:sections.image-with-text.blocks.caption.settings.text_style.label"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Custom image with text",
+        "blocks": [
+          {
+            "type": "heading"
+          }, {
+            "type": "caption"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
