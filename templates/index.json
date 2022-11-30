@@ -173,13 +173,6 @@
             "richtext": "<p><strong>The KAORI complex blends are scientifically engineered to help you become a better you in 30 days.<\/strong><\/p>"
           }
         },
-        "abf1e984-417a-4d4d-b459-0e7e9352a89c": {
-          "type": "text",
-          "settings": {
-            "text": "Our custom blended formulas have been crafted to aid the most essentials elements of a productive and healthy life. We've extracted key properties from natural ingredients which have been formulated to release upon an enkindled flame. Our formulas consist of Boost, Dream, Focus, Relax, Revive & Power.",
-            "text_style": "body"
-          }
-        },
         "70500dbd-f906-40d1-8d70-7a69ee54d85c": {
           "type": "bullet",
           "settings": {
@@ -219,7 +212,6 @@
         "template--16970304586008__f248e8ca-7d27-467b-8cf5-045aab556893-1668992357149953b1-1",
         "572585bd-8cf9-4f21-ac65-cdd1a1a59db6",
         "a2a0425d-e752-4b38-8ade-986bace8142c",
-        "abf1e984-417a-4d4d-b459-0e7e9352a89c",
         "70500dbd-f906-40d1-8d70-7a69ee54d85c",
         "251a5b6e-471a-45ed-98bd-1082a01ae734",
         "77cfd4b0-433d-465a-b55d-09e0eefc8981",
@@ -286,7 +278,7 @@
           "settings": {
             "heading": "Enter Unmatched Flow State.",
             "icon": "bubble",
-            "row_content": "<p><\/p><p>Some description<\/p>",
+            "row_content": "<p>We use Ayurvedic blends of Sage, Guarana & Ashwagandha to drive cognitive function, memory & performance, to help you enter an unmatched state of flow & clean energy.<\/p>",
             "page": ""
           }
         },
@@ -295,7 +287,7 @@
           "settings": {
             "heading": "Reduce stress & feel good about your self.",
             "icon": "plant",
-            "row_content": "<p>Some description<\/p>",
+            "row_content": "<p>Take a deep breath. Experience the essential oils of Bacopa Monnieri, an eastern nootropic herb used for centuries to alleviate anxiety, insomnia, depression & reduce stress.<\/p>",
             "page": ""
           }
         },
@@ -304,7 +296,7 @@
           "settings": {
             "heading": "Become the better you.",
             "icon": "happy_emoji_smile",
-            "row_content": "<p>Some description<\/p>",
+            "row_content": "<p>Experience the power of Rhodiola Rosea & harness the Japanese essence of Ikigai. Found only in the high-altitude regions of Asia, this flower is renowned globally for tackling ‘burnout’ - increasing your concentration, alertness & endurance to help you seize your sense of purpose.<\/p>",
             "page": ""
           }
         },
@@ -492,33 +484,6 @@
         "swipe_on_mobile": true,
         "padding_top": 28,
         "padding_bottom": 28
-      }
-    },
-    "f2e2688c-4294-4438-8634-90a6861aac15": {
-      "type": "image-with-text-custom",
-      "blocks": {
-        "template--16970304586008__f2e2688c-4294-4438-8634-90a6861aac15-1669195695667cff4a-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p><strong>Blended In Kiso<\/strong><\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "template--16970304586008__f2e2688c-4294-4438-8634-90a6861aac15-1669195695667cff4a-1": {
-          "type": "caption",
-          "settings": {
-            "caption": "Originally used by the Sōhei Buddhist warrior monks.",
-            "text_style": "subtitle"
-          }
-        }
-      },
-      "block_order": [
-        "template--16970304586008__f2e2688c-4294-4438-8634-90a6861aac15-1669195695667cff4a-0",
-        "template--16970304586008__f2e2688c-4294-4438-8634-90a6861aac15-1669195695667cff4a-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Untitled_design_-_2022-07-14T145814_1.png",
-        "color_scheme": "background-2"
       }
     },
     "7473cca5-4535-4708-8c36-f2da183ec43f": {
@@ -743,7 +708,6 @@
     "39e3b229-72a2-44d4-8e17-b33eea7ec946",
     "b950dcfa-1c08-408b-bb6a-072cb8de5c3b",
     "2b489207-42d0-482d-9075-0bfa2895bcfd",
-    "f2e2688c-4294-4438-8634-90a6861aac15",
     "7473cca5-4535-4708-8c36-f2da183ec43f",
     "69e9e338-0362-4a25-86a3-f5950746967e",
     "78190ce3-d7cd-45f6-a49f-5ac7d9c6deb3",
