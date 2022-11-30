@@ -51,6 +51,7 @@
   .flickity-button {
     border: none !important;
     background: none !important;
+    display: none;
   } 
  
   .flickity-button:disabled {
@@ -99,6 +100,10 @@
   }
   a:active {
     text-decoration: none;
+  }
+
+  .flickity-page-dots {
+    display: none;
   }
   .flickity-page-dots .dot {
     background: none;
@@ -190,7 +195,7 @@
                             {% if media contains "Boost"  %}
                               BOOST X FLAVOUR
                             {% endif %}
-                            {% if media contains "Dream"  %}
+<!--                             {% if media contains "Dream"  %}
                               DREAM X FLAVOUR
                             {% endif %}
                             {% if media contains "Revive"  %}
@@ -204,7 +209,7 @@
                             {% endif %}
                             {% if media contains "Focus"  %}
                               FOCUS X FLAVOUR
-                            {% endif %}
+                            {% endif %} -->
                           </strong>
                         </h4>
                         <h5>
@@ -235,7 +240,7 @@
                 </p>
               {%- when 'richtext' -%}
                 <p>
-                  {{ block.settings.richtext | replace: 'p>', 'span>' }}
+                  {{ block.settings.richtext }}
                 </p>
               {%- when 'bullet' -%}
                 <div class="bullet-point-wrapper">
