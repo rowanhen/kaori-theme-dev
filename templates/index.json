@@ -170,7 +170,37 @@
         "a2a0425d-e752-4b38-8ade-986bace8142c": {
           "type": "richtext",
           "settings": {
-            "richtext": "<p><strong>The KAORI complex blends are scientifically engineered to help you become a better you in 30 days.<\/strong><\/p><p><\/p><p>Formula 1: Boost<\/p><p>Ginseng: Contains compounds that may help boost alertness and concentration, according to research studies.<\/p><p>Sage: Helps improve mood, alertness & attention span, as well as reduce fatigue in adults.<\/p><p>Guarana: Beneficial for brain function and help boost attention, alertness, and memory performance.<\/p><p>Bacopa Monnieri: An Ayurvedic medicine that treats a variety of ailments, including anxiety, insomnia, and memory issues - known for its cognitive-enhancing properties.<\/p><p>Peppermint: - Inhaling peppermint essential oil has been shown to have beneficial effects on memory, energy levels, and alertness.<\/p><p>Rhodiola Rosea: A plant that has been used for centuries in traditional medicine systems worldwide to tackle 'burnout', improving concentration, memory, alertness & endurance.<\/p><p>Ashwagandha: An Ayurvedic remedy since ancient times, used to improve sleep quality, mental alertness, and athletic performance.<\/p><p> <\/p>"
+            "richtext": "<p><strong>The KAORI complex blends are scientifically engineered to help you become a better you in 30 days.<\/strong><\/p>"
+          }
+        },
+        "d4d035e6-23c5-4d0b-afb3-29ad0e2bc492": {
+          "type": "richtext",
+          "settings": {
+            "richtext": "<p>Formula 1: Boost<\/p>"
+          }
+        },
+        "1c7ed83d-7217-41f8-bf7a-c3d9c8cb7799": {
+          "type": "richtext",
+          "settings": {
+            "richtext": "<p>Ginseng: Contains compounds that may help boost alertness and concentration, according to research studies.<\/p>"
+          }
+        },
+        "c1c7d44f-f61a-4283-9ee4-c033f72d01bf": {
+          "type": "richtext",
+          "settings": {
+            "richtext": "<p>Sage: Helps improve mood, alertness & attention span, as well as reduce fatigue in adults.<\/p>"
+          }
+        },
+        "1a77651d-96ba-4b61-b89c-e053864d6fa2": {
+          "type": "richtext",
+          "settings": {
+            "richtext": "<p>Guarana: Beneficial for brain function and help boost attention, alertness, and memory performance.<\/p>"
+          }
+        },
+        "0a4d639e-3b82-4346-8ebf-347fc5dbd6e6": {
+          "type": "richtext",
+          "settings": {
+            "richtext": "<p>Bacopa Monnieri: An Ayurvedic medicine that treats a variety of ailments, including anxiety, insomnia, and memory issues - known for its cognitive-enhancing properties.<\/p>"
           }
         },
         "70500dbd-f906-40d1-8d70-7a69ee54d85c": {
@@ -212,6 +242,11 @@
         "template--16970304586008__f248e8ca-7d27-467b-8cf5-045aab556893-1668992357149953b1-1",
         "572585bd-8cf9-4f21-ac65-cdd1a1a59db6",
         "a2a0425d-e752-4b38-8ade-986bace8142c",
+        "d4d035e6-23c5-4d0b-afb3-29ad0e2bc492",
+        "1c7ed83d-7217-41f8-bf7a-c3d9c8cb7799",
+        "c1c7d44f-f61a-4283-9ee4-c033f72d01bf",
+        "1a77651d-96ba-4b61-b89c-e053864d6fa2",
+        "0a4d639e-3b82-4346-8ebf-347fc5dbd6e6",
         "70500dbd-f906-40d1-8d70-7a69ee54d85c",
         "251a5b6e-471a-45ed-98bd-1082a01ae734",
         "77cfd4b0-433d-465a-b55d-09e0eefc8981",
