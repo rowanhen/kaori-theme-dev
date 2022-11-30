@@ -176,31 +176,7 @@
         "d4d035e6-23c5-4d0b-afb3-29ad0e2bc492": {
           "type": "richtext",
           "settings": {
-            "richtext": "<p>Formula 1: Boost<\/p>"
-          }
-        },
-        "1c7ed83d-7217-41f8-bf7a-c3d9c8cb7799": {
-          "type": "richtext",
-          "settings": {
-            "richtext": "<p>Ginseng: Contains compounds that may help boost alertness and concentration, according to research studies.<\/p>"
-          }
-        },
-        "c1c7d44f-f61a-4283-9ee4-c033f72d01bf": {
-          "type": "richtext",
-          "settings": {
-            "richtext": "<p>Sage: Helps improve mood, alertness & attention span, as well as reduce fatigue in adults.<\/p>"
-          }
-        },
-        "1a77651d-96ba-4b61-b89c-e053864d6fa2": {
-          "type": "richtext",
-          "settings": {
-            "richtext": "<p>Guarana: Beneficial for brain function and help boost attention, alertness, and memory performance.<\/p>"
-          }
-        },
-        "0a4d639e-3b82-4346-8ebf-347fc5dbd6e6": {
-          "type": "richtext",
-          "settings": {
-            "richtext": "<p>Bacopa Monnieri: An Ayurvedic medicine that treats a variety of ailments, including anxiety, insomnia, and memory issues - known for its cognitive-enhancing properties.<\/p>"
+            "richtext": "<p><strong>Formula 1: Boost<\/strong><\/p>"
           }
         },
         "70500dbd-f906-40d1-8d70-7a69ee54d85c": {
@@ -243,10 +219,6 @@
         "572585bd-8cf9-4f21-ac65-cdd1a1a59db6",
         "a2a0425d-e752-4b38-8ade-986bace8142c",
         "d4d035e6-23c5-4d0b-afb3-29ad0e2bc492",
-        "1c7ed83d-7217-41f8-bf7a-c3d9c8cb7799",
-        "c1c7d44f-f61a-4283-9ee4-c033f72d01bf",
-        "1a77651d-96ba-4b61-b89c-e053864d6fa2",
-        "0a4d639e-3b82-4346-8ebf-347fc5dbd6e6",
         "70500dbd-f906-40d1-8d70-7a69ee54d85c",
         "251a5b6e-471a-45ed-98bd-1082a01ae734",
         "77cfd4b0-433d-465a-b55d-09e0eefc8981",
@@ -668,7 +640,7 @@
         "template--16970304586008__4a93e726-2262-4c25-9827-ea9344d6495c-16686230364f96f637-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image_9.png",
+            "image": "shopify:\/\/shop_images\/incense_cone_unsplash.jpg",
             "heading": "Aromatherapy at home",
             "heading_size": "h2",
             "subheading": "Helping you find your true IKIGAI.",
