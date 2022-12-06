@@ -122,6 +122,10 @@
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "frontpage",
+    "checkout_logo_image": "shopify:\/\/shop_images\/image_5.png",
+    "checkout_body_background_color": "#f6f0e4",
+    "checkout_input_background_color_mode": "transparent",
+    "checkout_sidebar_background_color": "#f6f0e4",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
