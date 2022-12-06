@@ -536,7 +536,7 @@
           "type": "Review",
           "settings": {
             "stars": 5,
-            "content": "<p>This is an example review - I love kaori<\/p>",
+            "content": "<p>I have never had an incense that smells like this - so unique and relaxing!<\/p>",
             "location": "Manchester, UK"
           }
         },
@@ -544,7 +544,7 @@
           "type": "Review",
           "settings": {
             "stars": 5,
-            "content": "<p>Some review content<\/p>",
+            "content": "<p>Great incense. Very cool smoke feature. 5 Stars.<\/p>",
             "location": "London, UK"
           }
         },
@@ -552,23 +552,39 @@
           "type": "Review",
           "settings": {
             "stars": 5,
-            "content": "<p>Some review content<\/p>",
-            "location": "London, UK"
-          }
-        },
-        "e77bfdeb-53a5-4306-b4a9-18add2abbb68": {
-          "type": "Review",
-          "settings": {
-            "stars": 5,
-            "content": "<p>Another random review - just testing how this works & looks - if the review gets too long then it should truncate<\/p>",
+            "content": "<p>Honestly this incense has helped me concentrate so much. I have really bad ADD and I have been far more productive since using this. Thank you!!<\/p>",
             "location": "London, UK"
           }
         },
         "83250034-952c-4c53-833a-4e842f574c51": {
           "type": "Review",
           "settings": {
+            "stars": 4,
+            "content": "<p>Smells incredible and looks so so cool! I just wish they had more colours so I could buy more<\/p>",
+            "location": "Edinburgh, UK"
+          }
+        },
+        "2b5430f6-e0d8-4ad9-bc2a-777cf99eb7c8": {
+          "type": "Review",
+          "settings": {
             "stars": 5,
-            "content": "<p>Some review content<\/p>",
+            "content": "<p>I have stopped drinking coffee and have been finding it really hard. But I light this incense every morning during my first work block and it helps me find the energy to work!<\/p>",
+            "location": "Wells, UK"
+          }
+        },
+        "e77bfdeb-53a5-4306-b4a9-18add2abbb68": {
+          "type": "Review",
+          "settings": {
+            "stars": 5,
+            "content": "<p>Super high quality! Every time I have guests they ask me about this incense. Good conversation starter and makes the house smell great before friends arrive.<\/p>",
+            "location": "London, UK"
+          }
+        },
+        "5d4f024d-9137-42b5-8103-b60d294948d7": {
+          "type": "Review",
+          "settings": {
+            "stars": 5,
+            "content": "<p>Light this incense after lunch when I am feeling drowsy and it has been a game changer. We now have them in our office in town! I love love love. When are we getting more colours?!<\/p>",
             "location": "London, UK"
           }
         }
@@ -577,8 +593,10 @@
         "template--16970304586008__69e9e338-0362-4a25-86a3-f5950746967e-16688099219614b973-0",
         "template--16970304586008__69e9e338-0362-4a25-86a3-f5950746967e-16688099219614b973-1",
         "0f945a0e-3962-49bc-8902-46ad5311a591",
+        "83250034-952c-4c53-833a-4e842f574c51",
+        "2b5430f6-e0d8-4ad9-bc2a-777cf99eb7c8",
         "e77bfdeb-53a5-4306-b4a9-18add2abbb68",
-        "83250034-952c-4c53-833a-4e842f574c51"
+        "5d4f024d-9137-42b5-8103-b60d294948d7"
       ],
       "settings": {
         "color_scheme": "background-2"
